@@ -1,4 +1,4 @@
-import Event from "./1-events/Event"
+import Event from "./components/Event"
 
 function App() {
   return (
