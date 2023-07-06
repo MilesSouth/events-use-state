@@ -18,7 +18,7 @@ const Counter = () => {
       <button onClick={handleCount} id="inc">
         INC
       </button>
-      <button onClick={() => setCounter(0)} id="clr">
+      <button onDoubleClick={handleCount} id="clr">
         CLR
       </button>
       <button onClick={handleCount} id="dec">
